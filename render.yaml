@@ -2,3 +2,5 @@ services:
   - type: web
     name: jwt-verifier
     env: docker
+    ports:
+  - "8004:8000"
